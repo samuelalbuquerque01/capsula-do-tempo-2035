@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TimeCapsule 3025</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Elementos de fundo. -->
+    <div class="particles">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
+    <div class="scanlines"></div>
+
+    <!-- Efeitos de parallax -->
+    <div class="circulo-radial parallax-lento"></div>
+    <div class="circulo-radial parallax-medio"></div>
+
+    <header id="cabecalho-fixo" class="cabecalho-fixo">
+      <div class="conteudo-cabecalho">
+        <div class="logo-cabecalho">
+          <i class="icone-relogio"></i>
+          <h1 class="titulo-heroi">TimeCapsule 3025</h1>
+        </div>
+        <nav>
+          <ul class="lista-nav">
+            <li><a href="#museum" class="link-nav">Museu</a></li>
+            <li><a href="#exhibitions" class="link-nav">Exposições</a></li>
+            <li><a href="#experience" class="link-nav">Experiência</a></li>
+            <li><a href="#send-message" class="link-nav">Mensagem</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <header id="home" class="cabecalho-principal">
+      <div class="conteudo-cabecalho">
+        <div class="logo-heroi">
+          <div class="icone-heroi"></div>
+          <h1 class="titulo-heroi">TimeCapsule 3025</h1>
+        </div>
+        <nav>
+          <ul class="lista-nav">
+            <li><a href="#museum" class="link-nav">Museu</a></li>
+            <li><a href="#exhibitions" class="link-nav">Exposições</a></li>
+            <li><a href="#experience" class="link-nav">Experiência</a></li>
+            <li>
+              <a href="#send-message" class="link-nav destaque"
+                >Enviar Mensagem</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="hero" class="heroi-secao">
+      <div class="heroi-grid">
+        <div class="heroi-texto">
+          <h2 class="titulo-heroi-grande">
+            Bem-vindo ao <span class="texto-azul">Futuro</span> do
+            <span class="texto-roxo">Passado</span>
+          </h2>
+          <p class="descricao-heroi">
+            Explore nossa cápsula do tempo virtual e descubra como os humanos de 2025 viviam, através de uma jornada imersiva pelo museu de 2025.
+          </p>
+          <div class="heroi-botoes">
+            <button class="botao-primario">Iniciar Tour</button>
+            <button class="botao-secundario">Saiba Mais</button>
+          </div>
+        </div>
+        <div class="heroi-grafico">
+          <div class="moldura-holograma">
+            <div class="conteudo-holograma">
+              <div class="numero-holograma">3025</div>
+              <div class="legenda-holograma">Cápsula do Tempo Virtual</div>
+            </div>
+            <div class="canto cima-esquerda"></div>
+            <div class="canto cima-direita"></div>
+            <div class="canto baixo-esquerda"></div>
+            <div class="canto baixo-direita"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Museu -->
+    <section id="museum" class="museu-secao">
+      <div class="circulo-radial parallax-rapido"></div>
+      <div class="container">
+        <div class="cabecalho-secao">
+          <h2 class="titulo-secao">
+            Museu Virtual <span class="texto-verde">2025</span>
+          </h2>
+          <p class="subtitulo-secao">
+            Uma jornada através do tempo para explorar a vida no ano de 2025,
+            preservada em nossa cápsula do tempo digital.
+          </p>
+        </div>
+
+        <div class="grade-salas">
+          <!-- Sala 01 -->
+          <article class="sala-card" style="--atraso: 0">
+            <div class="imagem-sala">
+              <div class="icone-rotulo icone-celular"></div>
+              <span class="rotulo-sala texto-roxo">SALA 01</span>
+            </div>
+            <div class="conteudo-sala">
+              <h3 class="titulo-sala">Tecnologia de 2025</h3>
+              <p class="descricao-sala">
+                Dispositivos que os humanos consideravam
+                avançados: smartphones e desktops e como dependiamos integralmente deles.
+              </p>
+              <a href="#tech-section" class="botao-sala texto-azul"
+                >Explorar Sala</a
+              >
+            </div>
+          </article>
+
+          <!-- Sala 02 -->
+          <article class="sala-card" style="--atraso: 100">
+            <div class="imagem-sala">
+              <div class="icone-rotulo icone-utensilios"></div>
+              <span class="rotulo-sala texto-azul">SALA 02</span>
+            </div>
+            <div class="conteudo-sala">
+              <h3 class="titulo-sala">Gastronomia Terrestre</h3>
+              <p class="descricao-sala">
+                Alimentos orgânicos cultivados em solo, restaurantes físicos e a
+                cultura de consumo de bebidas cafeinadas.
+              </p>
+              <a href="#food-section" class="botao-sala texto-roxo"
+                >Explorar Sala</a
+              >
+            </div>
+          </article>
+
+          <!-- Sala 03 -->
+          <article class="sala-card" style="--atraso: 200">
+            <div class="imagem-sala">
+              <div class="icone-rotulo icone-carro"></div>
+              <span class="rotulo-sala texto-verde">SALA 03</span>
+            </div>
+            <div class="conteudo-sala">
+              <h3 class="titulo-sala">Mobilidade</h3>
+              <p class="descricao-sala">
+                Veículos terrestres com rodas que utilizavam combustíveis
+                fósseis e os primeiros veículos elétricos autônomos.
+              </p>
+              <a href="#mobility-section" class="botao-sala texto-verde"
+                >Explorar Sala</a
+              >
+            </div>
+          </article>
+
+          <!-- Sala 04 -->
+          <article class="sala-card" style="--atraso: 300">
+            <div class="imagem-sala">
+              <div class="icone-rotulo icone-filme"></div>
+              <span class="rotulo-sala texto-roxo">SALA 04</span>
+            </div>
+            <div class="conteudo-sala">
+              <h3 class="titulo-sala">Entretenimento Digital</h3>
+              <p class="descricao-sala">
+                Plataformas de streaming 2D, videogames com interfaces físicas e
+                redes sociais baseadas em texto e imagem.
+              </p>
+              <a href="#entertainment-section" class="botao-sala texto-azul"
+                >Explorar Sala</a
+              >
+            </div>
+          </article>
+
+          <!-- Sala 05 -->
+          <article class="sala-card" style="--atraso: 400">
+            <div class="imagem-sala">
+              <div class="icone-rotulo icone-camisa"></div>
+              <span class="rotulo-sala texto-azul">SALA 05</span>
+            </div>
+            <div class="conteudo-sala">
+              <h3 class="titulo-sala">Moda e Vestuário</h3>
+              <p class="descricao-sala">
+                Tecidos não-adaptativos, roupas sem sensores biométricos e
+                estilos que não respondiam ao ambiente.
+              </p>
+              <a href="#fashion-section" class="botao-sala texto-roxo"
+                >Explorar Sala</a
+              >
+            </div>
+          </article>
+
+          <!-- Sala 06 -->
+          <article class="sala-card" style="--atraso: 500">
+            <div class="imagem-sala">
+              <div class="icone-rotulo icone-casa"></div>
+              <span class="rotulo-sala texto-verde">SALA 06</span>
+            </div>
+            <div class="conteudo-sala">
+              <h3 class="titulo-sala">Habitações do futuro</h3>
+              <p class="descricao-sala">
+                Como nos de 2025, pensamos que serão as habitações futuras.
+              </p>
+              <a href="#housing-section" class="botao-sala texto-verde"
+                >Explorar Sala</a
+              >
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tecnologia de 2025. -->
+    <section id="tech-section" class="secao-detalhada borda-azul">
+      <div class="cabecalho-secao-detalhada">
+        <h2 class="titulo-secao-detalhada">Tecnologia de 2025</h2>
+        <p class="subtitulo-secao-detalhada">
+          Artefatos tecnológicos que os humanos do século XXI utilizavam para
+          comunicação, trabalho e entretenimento.
+        </p>
+      </div>
+      <div class="imagens-sala">
+        <div class="quadro-imagem">
+          <img src="assets/images/smartphone.jpg" alt="Smartphone" />
+        </div>
+        <div class="quadro-imagem">
+          <img src="assets/images/Computador.jpg" alt="Computador" />
+        </div>
+      </div>
+      <div class="grade-itens-detalhados">
+        <div class="item-museu">
+          <div class="icone-item icone-smartphone"></div>
+          <h3 class="titulo-item">Smartphones</h3>
+          <p class="descricao-item">
+            Dispositivos portáteis com telas sensíveis ao toque, onde tinhamos acesso a Internet, eram grandes e de alto valor econômico.
+          </p>
+        </div>
+        <div class="item-museu">
+          <div class="icone-item icone-computador"></div>
+          <h3 class="titulo-item">Computadores Pessoais</h3>
+          <p class="descricao-item">Máquinas pesadas com teclados físicos, eram uma das maquinas domesticas mais potentes e tomavam bastante espaço.</p>
+        </div>
+        <div class="item-museu">
+          <div class="icone-item icone-curiosidade"></div>
+          <h3 class="titulo-item">Curiosidades de tecnologias</h3>
+          <p class="descricao-item">
+            Com seus usos excessivos acabou afastando as pessoas do convivio social. 
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gastronomia Terrestre -->
+    <section id="food-section" class="secao-detalhada borda-roxo">
+      <div class="cabecalho-secao-detalhada">
+        <h2 class="titulo-secao-detalhada">Gastronomia</h2>
+        <p class="subtitulo-secao-detalhada">
+          A cultura alimentar do ano de 2025, baseada em ingredientes não tão
+          orgânicos...
+        </p>
+      </div>
+      <div class="imagens-sala">
+        <div class="quadro-imagem">
+          <img src="assets/images/fast food.png" alt="Fast Food" />
+        </div>
+        <div class="quadro-imagem">
+          <img src="assets/images/alta gastronomia.jpg" alt="Alta Gastronomia" />
+        </div>
+      </div>
+      <div class="grade-itens-detalhados">
+        <div class="item-museu">
+          <div class="icone-item icone-fastfood"></div>
+          <h3 class="titulo-item">Fast Food</h3>
+          <p class="descricao-item">
+            Refeições de preparo rápido, altamente processadas...
+          </p>
+        </div>
+        <div class="item-museu">
+          <div class="icone-item icone-altagastronomia"></div>
+          <h3 class="titulo-item">Alta Gastronomia</h3>
+          <p class="descricao-item">
+            Pratos complexos e ricos em sabor, com ingredientes naturais e preperos caseiros.
+          </p>
+        </div>
+        <div class="item-museu">
+          <div class="icone-item icone-curiosidade"></div>
+          <h3 class="titulo-item">Curiosidades de gastronomia</h3>
+          <p class="descricao-item">
+            Precisavamos equilibrar o consumo, tinhamos pressa e ao mesto tempo queriamos aproveitar a vida.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mobilidade Antiga -->
+    <section id="mobility-section" class="secao-detalhada borda-verde">
+      <div class="cabecalho-secao-detalhada">
+        <h2 class="titulo-secao-detalhada">Mobilidade Antiga</h2>
+        <p class="subtitulo-secao-detalhada">
+          Sistemas de transporte terrestres que dependiam de combustíveis
+          fósseis...
+        </p>
+      </div>
+      <div class="imagens-sala">
+        <div class="quadro-imagem">
+          <img src="assets/images/mobilidade-urbana.jpg" alt="Avenida cheia de automoveis" />
+        </div>
+        <div class="quadro-imagem">
+          <img src="assets/images/gasolina.jpeg" alt="Tanque sendo enchido com gasolina" />
+        </div>
+      </div>
+      <div class="grade-itens-detalhados">
+        <div class="item-museu destaque-largo">
+          <div class="icone-item icone-infraestrutura"></div>
+          <h3 class="titulo-item">Infraestrutura Urbana</h3>
+          <p class="descricao-item">
+            Redes de estradas, túneis e pontes para veículos com rodas.
+          </p>
+        </div>
+        <div class="item-museu">
+          <div class="icone-item icone-combustivel"></div>
+          <h3 class="titulo-item">Combustíveis Fósseis</h3>
+          <p class="descricao-item">
+            Líquidos inflamáveis refinados para gerar energia.
+          </p>
+        </div>
+        <div class="item-museu">
+          <div class="icone-item icone-curiosidade"></div>
+          <h3 class="titulo-item">Curiosidades de mobilidade</h3>
+          <p class="descricao-item">
+            Eram horas no transito e muito dinheiro gasto.
+          </p>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Entretenimento Digital -->
+    <section id="entertainment-section" class="secao-detalhada borda-azul">
+      <div class="cabecalho-secao-detalhada">
+        <h2 class="titulo-secao-detalhada">Entretenimento Digital</h2>
+        <p class="subtitulo-secao-detalhada">
+          Mídias e tecnologias de lazer antes da era da imersão sensorial.
+        </p>
+      </div>
+      <div class="imagens-sala">
+        <div class="quadro-imagem">
+          <img src="assets/images/streaming_na_TV.jpg" alt="Streaming de Vídeo" />
+        </div>
+        <div class="quadro-imagem">
+          <img src="assets/images/video games.jpg" alt="Videogames" />
+        </div>
+      </div>
+      <div class="grade-itens-detalhados">
+        <div class="item-museu">
+          <div class="icone-item icone-tv"></div>
+          <h3 class="titulo-item">Streaming de Vídeo</h3>
+          <p class="descricao-item">
+            Conteúdo audiovisual fixo em telas 2D, sem real imersão.
+          </p>
+        </div>
+        <div class="item-museu">
+          <div class="icone-item icone-gamepad"></div>
+          <h3 class="titulo-item">Videogames</h3>
+          <p class="descricao-item">
+            Jogos controlados manualmente, feedback visual e sonoro.
+          </p>
+        </div>
+        <div class="item-museu">
+          <div class="icone-item icone-curiosidade"></div>
+          <h3 class="titulo-item">Curiosidades do entreterimento</h3>
+          <p class="descricao-item">
+            Um escape da vida corrida, relaxar na frente da TV e comendo pipoca.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Moda e Vestuário -->
+    <section id="fashion-section" class="secao-detalhada borda-roxo">
+      <div class="cabecalho-secao-detalhada">
+        <h2 class="titulo-secao-detalhada">Moda e Vestuário</h2>
+        <p class="subtitulo-secao-detalhada">
+          Tecidos fixos sem sensoriamento e ciclos de moda curtos.
+        </p>
+      </div>
+      <div class="imagens-sala">
+        <div class="quadro-imagem">
+          <img src="assets/images/Vestuario.jpg" alt="Modelos de roupas de 2025" />
+        </div>
+        <div class="quadro-imagem">
+          <img src="assets/images/fast-fashion.jpg" alt="Coleção de Moda" />
+        </div>
+      </div>
+      <div class="grade-itens-detalhados">
+        <div class="item-museu destaque-largo">
+          <div class="icone-item icone-tecido"></div>
+          <h3 class="titulo-item">Materiais Primitivos</h3>
+          <p class="descricao-item">
+            Fibras estáticas sem resposta ao ambiente.
+          </p>
+        </div>
+        <div class="item-museu">
+          <div class="icone-item icone-ciclo"></div>
+          <h3 class="titulo-item">Ciclo de Moda</h3>
+          <p class="descricao-item">Tendências mudavam a cada 3--6 meses, influenciadas pos redes sociais e celebridades.</p>
+        </div>
+        <div class="item-museu">
+          <div class="icone-item icone-curiosidade"></div>
+          <h3 class="titulo-item">Curiosidades da Moda</h3>
+          <p class="descricao-item">Peças antigas já viraram tendências, Estilo Retrô, qual o de vocês?.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habitações do futuro -->
+    <section id="housing-section" class="secao-detalhada borda-verde">
+      <div class="cabecalho-secao-detalhada">
+        <h2 class="titulo-secao-detalhada">Habitações do futuro</h2>
+        <p class="subtitulo-secao-detalhada">
+          Como imaginamos que serão as casas daqui 100 anos.
+        </p>
+      </div>
+      <div class="imagens-sala">
+        <div class="quadro-imagem">
+          <img src="assets/images/Casa ecologica.jpg" alt="Casa futuristica ecologica" />
+        </div>
+        <div class="quadro-imagem">
+          <img src="assets/images/casas em marte.jpg" alt="Comunidade em Marte" />
+        </div>
+      </div>
+      <div class="grade-itens-detalhados">
+        <div class="item-museu destaque-largo">
+          <div class="icone-item icone-termostato"></div>
+          <h3 class="titulo-item">Clima Estabilizado</h3>
+          <p class="descricao-item">Acreditamos que a crise climatica esteja diminuindo e que as habitações ajudem com isso.</p>
+        </div>
+        <div class="item-museu">
+          <div class="icone-item icone-lampada"></div>
+          <h3 class="titulo-item">Energia renovável</h3>
+          <p class="descricao-item">Acreditamos que tenham achado um equilibrio na geração de energia.</p>
+        </div>
+        <div class="item-museu">
+          <div class="icone-item icone-movel"></div>
+          <h3 class="titulo-item">Móveis Ergonômicos</h3>
+          <p class="descricao-item">acreditamos que tenham moveis mais confortáveis de manusear.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experiência Imersiva -->
+    <section id="exhibitions" class="secao-video borda-roxo">
+      <div class="cabecalho-secao-detalhada">
+        <h2 class="titulo-secao-detalhada">Experiência Imersiva</h2>
+        <p class="subtitulo-secao-detalhada">
+          Vídeo demonstrativo de como era a vida no ano de 2025.
+        </p>
+      </div>
+      <div class="video-container">
+  <iframe
+    class="video-embed"
+    src="https://www.youtube.com/embed/srpxr464zB4"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+</div>
+
+    </section>
+
+    <!-- Envie Mensagem -->
+    <section id="send-message" class="secao-envio">
+      <div class="container">
+        <div class="cabecalho-secao-detalhada">
+          <h2 class="titulo-secao-detalhada">
+            Envie uma Mensagem para o Futuro
+          </h2>
+          <p class="subtitulo-secao-detalhada">
+            Deixe seus pensamentos para serem descobertos por gerações futuras.
+          </p>
+        </div>
+
+        <form class="formulario">
+          <!-- Seu Nome -->
+          <div class="campo">
+            <label for="nome" class="rotulo-campo">Seu Nome</label>
+            <input
+              type="text"
+              id="nome"
+              class="entrada-campo"
+              placeholder="Seu nome para registro histórico"
+            />
+          </div>
+          <!-- Ano Atual -->
+          <div class="campo">
+            <label for="ano" class="rotulo-campo">Ano Atual</label>
+            <input type="number" id="ano" class="entrada-campo" value="2025" />
+          </div>
+          <!-- Sua Mensagem -->
+          <div class="campo">
+            <label for="mensagem" class="rotulo-campo">Sua Mensagem</label>
+            <textarea
+              id="mensagem"
+              class="entrada-campo texto-campo"
+              rows="5"
+              placeholder="O que você gostaria que as pessoas em 3025 soubessem?"
+            ></textarea>
+          </div>
+          <!-- Categorias -->
+          <div class="campo">
+            <label class="rotulo-campo">Categorias</label>
+            <div class="categorias">
+              <label class="caixa-categoria">
+                <input type="checkbox" /> Tecnologia
+              </label>
+              <label class="caixa-categoria">
+                <input type="checkbox" /> Cultura
+              </label>
+              <label class="caixa-categoria">
+                <input type="checkbox" /> Ambiente
+              </label>
+              <label class="caixa-categoria">
+                <input type="checkbox" /> Política
+              </label>
+              <label class="caixa-categoria">
+                <input type="checkbox" /> Ciência
+              </label>
+              <label class="caixa-categoria">
+                <input type="checkbox" /> Pessoal
+              </label>
+            </div>
+          </div>
+
+          <!-- Botão "Enviar" com efeito teste -->
+          <div class="campo envio-teste">
+            <input type="checkbox" id="chk-envio" hidden />
+            <label for="chk-envio" class="botao-envio">ENVIAR PARA 3025</label>
+            <div class="mensagem-envio">✔ Mensagem enviada com sucesso!!</div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+      <div class="container">
+        <div class="grade-rodape">
+          <div class="coluna-rodape">
+            <h3 class="titulo-rodape">TimeCapsule 3025</h3>
+            <p>Preservando o presente para o futuro explorar.</p>
+            <div class="icones-sociais">
+              <a href="#" class="icone-facebook"></a>
+              <a href="#" class="icone-twitter"></a>
+              <a href="#" class="icone-instagram"></a>
+            </div>
+          </div>
+
+          <div class="coluna-rodape">
+            <h3 class="titulo-rodape">Navegação</h3>
+            <ul class="lista-rodape">
+              <li><a href="#home">Início</a></li>
+              <li><a href="#museum">Museu</a></li>
+              <li><a href="#exhibitions">Exposições</a></li>
+              <li><a href="#send-message">Enviar Mensagem</a></li>
+            </ul>
+          </div>
+
+          <div class="coluna-rodape">
+            <h3 class="titulo-rodape">Contato</h3>
+            <ul class="lista-rodape">
+              <li><i class="icone-email"></i> futuro@timecapsule3025.com</li>
+              <li><i class="icone-local"></i> Núcleo de Preservação Digital</li>
+              <li><i class="icone-relogio"></i> Ano Terrestre: 3025</li>
+            </ul>
+          </div>
+        </div>
+        <p class="copyright">
+          © 3025 TimeCapsule. Todos os direitos preservados.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
